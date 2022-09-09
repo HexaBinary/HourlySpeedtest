@@ -13,4 +13,5 @@ is a basic Bash script to automatically run a network speed test using the Ookla
     
     ...
 ### Create a link of this file to the cron folders in /etc - You can also set a cronjob if you have a specific timing requirement
-    $ sudo ln -s ~/autospeedtest.sh /etc/cron.hourly # You can choose between hourly/daily/weekly/monthly
+    $ sudo ln -s ~/autospeedtest.sh /etc/cron.hourly 
+      # You can choose between hourly/daily/weekly/monthly
