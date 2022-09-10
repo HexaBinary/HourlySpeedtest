@@ -25,5 +25,5 @@ Edit and add the following to the end
 The results of the tests will be in the format below
 
     Time: "year-month-dateThour:minute:secondZ" 
-Z in the end meaning Zulu or UTC (priorly called GMT) time 
+Z in the end meaning Zulu or UTC (priorly called GMT) time\
 Your local time zone may be offset from the UTC
