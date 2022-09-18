@@ -6,7 +6,7 @@ is a basic Bash script to automatically run a network speed test using the Ookla
     $ sudo apt-get install curl
     $ curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
     $ sudo apt-get install speedtest
-## If you are using a Raspberry Pi (running raspbian), the OS detection in the installation script won't work. You will need to do the following after the previus step
+### If you are using a Raspberry Pi (running raspbian), the OS detection in the installation script won't work. You will need to do the following after the previus step
 ### (Ignore if you run generic debian-ubuntu etc.)
     $ sudo nano /etc/apt/sources.list.d/ookla_speedtest-cli.list
 ### Change the last two lines with the following (Change the raspbian at the end of the https://packagecloud... url to debian)
