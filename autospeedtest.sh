@@ -11,7 +11,7 @@ upload=$(echo "scale=2 ; $upload_bytes / 125000" | bc)
 
 ping=$(echo $json_results | jq '.ping.latency')
 
-timestamp=$(date +"%x %X %Z")
+timestamp=$(date +"%x %X (%Z)")
 
 parsed_results="${timestamp} Download: ${download} Upload: ${upload} Ping: ${ping}"
 
