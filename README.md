@@ -9,7 +9,7 @@ is a basic Bash script to automatically run a network speed test using the Ookla
 ### If you are using a Raspberry Pi (running raspbian), the OS detection in the installation script won't work. You will need to do the following after the previus step
 ### (Ignore if you run generic debian-ubuntu etc.)
     $ sudo nano /etc/apt/sources.list.d/ookla_speedtest-cli.list
-### Change the last two lines with the following (Change the raspbian at the end of the https://packagecloud... url to debian)
+#### Change the last two lines with the following (Change the raspbian at the end of the https://packagecloud... url to debian)
     deb [signed-by=/etc/apt/keyrings/ookla_speedtest-cli-archive-keyring.gpg] https://packagecloud.io/ookla/speedtest-cli/debian/ buster main
     deb-src [signed-by=/etc/apt/keyrings/ookla_speedtest-cli-archive-keyring.gpg] https://packagecloud.io/ookla/speedtest-cli/debian/ buster main
     
