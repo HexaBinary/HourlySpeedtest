@@ -30,9 +30,3 @@ Edit and add the following to the end
     @hourly /bin/bash /path/to/the/script/autospeedtest.sh
     # You can edit the first argument of this to the schedule you want with the (min hour day-month month day-week) syntax 
     # or use the presets e.g @daily/weekly/monthly
-\
-The results of the tests will be in the format below
-
-    Time: "year-month-dateThour:minute:secondZ" 
-Z in the end meaning Zulu or UTC (priorly called GMT) time\
-Your local time zone may be offset from the UTC
