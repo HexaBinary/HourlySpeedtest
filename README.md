@@ -1,6 +1,9 @@
 # Hourly Speedtest
 is a basic Bash script to automatically run a network speed test using the Ookla Speedtest CLI and save results to a file
-
+## By using this script you agree to the End User License Agreement, Terms of Use and Privacy Policy of the Speedtest software at these URLs:
+    https://www.speedtest.net/about/eula
+	https://www.speedtest.net/about/terms
+	https://www.speedtest.net/about/privacy
 # Instructions
 ## Install Speedtest CLI
     $ sudo apt-get install curl
