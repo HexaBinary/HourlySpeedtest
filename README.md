@@ -4,7 +4,7 @@ is a basic Bash script to automatically run a network speed test using the Ookla
 # Instructions
 ### Install Speedtest CLI
     $ sudo apt-get install curl
-    $ curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash\
+    $ curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
     $ sudo apt-get install speedtest
 ### Edit the filename variable in the script to the path of the file you want the results to be saved to
     #!/bin/bash
